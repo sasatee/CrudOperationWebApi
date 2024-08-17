@@ -1,0 +1,15 @@
+@CrudOperation_HostAddress = https://localhost:7052
+
+GET {{CrudOperation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{CrudOperation_HostAddress}}/api/employees
+Content-Type: application/json
+
+{
+  //AddEmployeeDto
+}
+
+###
