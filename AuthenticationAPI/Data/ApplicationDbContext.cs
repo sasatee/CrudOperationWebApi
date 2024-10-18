@@ -10,5 +10,7 @@ namespace AuthenticationAPI.Data
         {
             
         }
+        public DbSet<Project> Projects { get; set; }
+        
     }
 }
